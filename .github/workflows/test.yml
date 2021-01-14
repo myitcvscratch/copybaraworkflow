@@ -9,4 +9,4 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
     - name: Docker run test
-      run: docker run --rm -it myitcv/copybara echo hello
+      run: docker run --rm -t myitcv/copybara echo hello
